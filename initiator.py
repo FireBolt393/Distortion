@@ -20,10 +20,8 @@ def vm():
 if not vm():
 
     load_dotenv()
-    webhook_url = "https://discord.com/api/webhooks/1381580858267406448/Zln5JT69UTgxSzTQgyVkI5S4pWPB9m9mvOdTCOeHJOU0FRSa_JazZly_vj6MLPUx3oja"
-
     BOT_TOKEN = os.getenv("BOT_TOKEN")
-    CONTROL_CENTER = 1381507376678572144
+    CONTROL_CENTER = "YOUR DISCORD'S MAIN CHANNEL ID"
 
     intents = discord.Intents.default()
     intents.message_content = True  # THIS is key to reading messages content
