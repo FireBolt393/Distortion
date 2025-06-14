@@ -116,5 +116,8 @@ Distortion is equipped with a wide array of powerful features, all controllable 
 ## Disclaimer
 - This project was developed for educational purposes and advanced security research only. It is a proof-of-concept to demonstrate complex system interactions and C2 architectures. It is intended to be used exclusively in controlled environments, such as penetration testing labs or on systems where you have explicit, authorized permission. The user is solely responsible for their actions. Unauthorized use of this tool on any system is illegal and unethical.
 
+### Acknowledgements
+Special thanks to  https://github.com/robert-desable for their help with testing and quality assurance
+
 ## Contributions:
 - Feel free to give your contributions.
