@@ -1,6 +1,8 @@
 # Distortion - Advanced Remote Administration & Security Framework
 - Distortion is a sophisticated, proof-of-concept remote administration framework designed for security research and educational purposes. It utilizes Discord as a secure, resilient, and intuitive Command & Control (C2) channel, allowing for real-time interaction with remote endpoints.
 
+- The main purpose of distortion is to bypass port forwarding or use of complex tunneling for establishing connection between victim and hacker, and efficient session control which was a major limitation in [ViperShell](https://github.com/FireBolt393/ViperShell-backdoor)
+
 - The framework is built on a modular, three-part architecture that separates the initial listener, the agent, and the executor, demonstrating professional software design patterns used in advanced remote systems.
 
 ## 🏛️ Architecture
