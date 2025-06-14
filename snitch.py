@@ -70,7 +70,7 @@ async def send_hq_alert(device):
     await client.wait_until_ready()
     hq_channel = client.get_channel(int(CONTROL_CENTER))
     if hq_channel:
-        await hq_channel.send(f"<@{763769606669991977}> We got a new prey, {device} in the system!")
+        await hq_channel.send(f"<@{YOUR_USERID}> We got a new prey, {device} in the system!")
     else:
         print("[Discord] HQ channel not found!")
 
