@@ -18,6 +18,9 @@
 ### Robust Session Control:
 - Distortion allows the operator to enter and exit victim sessions reliably, with no limit on how many times the connection is toggled. This improves persistence and operational flexibility.
 
+### Efficient IPC:
+- Efficient Inter process communication between snitch and distortion. It Does not use any event loops which was a drawback in ViperShell.
+
 ## 🏛️ Architecture
 The project's strength lies in its clean separation of concerns, broken down into three core components:
 
