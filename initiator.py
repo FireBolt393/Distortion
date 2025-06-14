@@ -21,7 +21,7 @@ if not vm():
 
     load_dotenv()
     BOT_TOKEN = os.getenv("BOT_TOKEN")
-    CONTROL_CENTER = "YOUR DISCORD'S MAIN CHANNEL ID"
+    CONTROL_CENTER = "SAME_AS_CONTROL_CENTER_FROM_SNITCH.PY"
 
     intents = discord.Intents.default()
     intents.message_content = True  # THIS is key to reading messages content
