@@ -1,0 +1,13 @@
+discord.py
+PyNaCl
+requests
+python-dotenv
+sounddevice
+pypiwin32
+pycryptodome
+Pillow
+opencv-python
+numpy
+mss
+keyboard
+pynput
