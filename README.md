@@ -94,7 +94,9 @@ Distortion is equipped with a wide array of powerful features, all controllable 
 
 - `BOT_TOKEN="YOUR_DISCORD_BOT_TOKEN_HERE"`
 
-- Inside snitch.py, update the GUILD_ID, ALL_VICTIMS_HERE category ID, and CONTROL_CENTER channel ID to match your Discord server setup.
+- Inside snitch.py, update the GUILD_ID, ALL_VICTIMS_HERE category ID, and CONTROL_CENTER channel ID, YOUR_USERID to match your Discord server setup.
+
+- To get these Ids, enable developer options from discord settings. Right clicking on discord server, channel, category and username would show up the option to copy their respective Ids.
 
 ### Deployment & Operation
 - Deploy: Place the initiator.py, distortion.py, and snitch.py files on the target machine.
