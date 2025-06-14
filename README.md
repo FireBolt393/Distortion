@@ -5,6 +5,19 @@
 
 - The framework is built on a modular, three-part architecture that separates the initial listener, the agent, and the executor, demonstrating professional software design patterns used in advanced remote systems.
 
+## Advantages over ViperShell:
+### Discord-Based Command and Control:
+- Distortion leverages Discord as its C2 infrastructure, eliminating the need for terminal access or dedicated servers. This makes setup and deployment significantly easier.
+
+### No Port Forwarding Required:
+- Communication is handled through the Discord API, allowing seamless operation across public networks without configuring port forwarding.
+
+### Real-Time Victim Notifications:
+- The system notifies the operator immediately when a victim comes online, offering real-time awareness and responsiveness. ViperShell lacked this functionality, requiring manual listener activation.
+
+### Robust Session Control:
+- Distortion allows the operator to enter and exit victim sessions reliably, with no limit on how many times the connection is toggled. This improves persistence and operational flexibility.
+
 ## 🏛️ Architecture
 The project's strength lies in its clean separation of concerns, broken down into three core components:
 
@@ -28,6 +41,8 @@ Distortion is equipped with a wide array of powerful features, all controllable 
 - Capture images from the webcam.
 
 - Record screen activity for a specified duration and send it as a high-quality video file.
+
+- Session control capabilities to switch back and forth into any victim's device.
 
 ## Advanced Context-Aware Keylogger:
 
@@ -86,6 +101,8 @@ Distortion is equipped with a wide array of powerful features, all controllable 
 - Activate: In your control channel, issue the activation command:
 
 - `$activate <target-hostname>`
+
+- To Check whether a device is active, use the following command: `$distortion <target-hostname>`. If a response is received, the victim is active. 
 
 ### Control: The snitch.py agent will activate, create a dedicated channel for the victim, and is now ready to receive slash commands. Use /help to see the full list of available commands.
 
