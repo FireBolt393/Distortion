@@ -1,5 +1,9 @@
 #snitch.py
 import asyncio
+
+if sys.platform == "win32" and sys.version_info >= (3, 8):
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
 import discord
 from discord.ext import commands
 import os, sys, signal, subprocess
