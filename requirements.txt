@@ -1,4 +1,4 @@
-discord.py
+discord
 PyNaCl
 requests
 python-dotenv
