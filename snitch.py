@@ -1,12 +1,12 @@
 #snitch.py
-import asyncio
+import asyncio, sys
 
 if sys.platform == "win32" and sys.version_info >= (3, 8):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 import discord
 from discord.ext import commands
-import os, sys, signal, subprocess
+import os, signal, subprocess
 from initiator import BOT_TOKEN, device_id
 from distortion import *
 
