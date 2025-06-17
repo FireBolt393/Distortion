@@ -1,11 +1,11 @@
 import socket
-import asyncio
+import asyncio, sys
 
 if sys.platform == "win32" and sys.version_info >= (3, 8):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 import requests
-import time, random, sys, os
+import time, random, os
 from dotenv import load_dotenv
 import subprocess
 import discord
